@@ -7,8 +7,8 @@
 
 
 ### How to build
-cd vendors
-./build_xerces.sh
-./build_xqilla.sh
-cd ..
-scons
+    cd vendors
+    ./build_xerces.sh
+    ./build_xqilla.sh
+    cd ..
+    scons
