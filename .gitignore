@@ -28,6 +28,9 @@
 *.out
 *.app
 
+# scons 
+.sconsign.dblite
+
 # Xerces
 .dirstamp
 .deps

@@ -1,0 +1,13 @@
+Import('env')
+Import('config')
+
+source = [
+    'main.cpp',
+]
+
+e = env.Clone()
+
+e['LIBS'] = env['lib_list']
+
+e.Program(config['output_bin']+'/xpathDemo', source)
+
