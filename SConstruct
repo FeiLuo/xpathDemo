@@ -56,6 +56,8 @@ def RecusiveGlobFiles(self, abs_path_dir, glob_list, exclude_folders = [], exclu
 # Initialize
 topdir = backtrace('Sconstruct')
 output_root_dir = os.path.join(topdir, 'output')
+bin_dir = os.path.join(output_root_dir, 'bin')
+libs_dir = os.path.join(output_root_dir, 'libs')
 
 AddMethod(Environment, RecusiveGetDirs)
 AddMethod(Environment, RecusiveGlobFiles)
